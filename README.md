@@ -22,7 +22,17 @@ The API returns the solution along with metadata about the solving process, incl
 
 ## Installation
 
-### Using Docker (Recommended)
+### Using Docker Compose (Recommended)
+
+```bash
+# Build and run with Docker Compose
+docker compose up
+
+# Build and run in detached mode
+docker compose up -d
+```
+
+### Using Docker Manually
 
 ```bash
 # Build the Docker image
